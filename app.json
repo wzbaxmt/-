@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/map/map",
+    "pages/home/home",
+    "pages/store/store"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+    {
+      "pagePath": "pages/map/map",
+      "text": "地图",
+      "iconPath": "images/地址.png",
+      "selectedIconPath": "images/地址 (1).png"
+    },{
+      "pagePath": "pages/home/home",
+      "text": "大殿",
+      "iconPath": "images/首页.png",
+      "selectedIconPath": "images/首页 (1).png"
+    },{
+      "pagePath": "pages/store/store",
+      "text": "卡包",
+      "iconPath": "images/卡包.png",
+      "selectedIconPath": "images/卡包 (1).png"
+    }]
+  }
+}
